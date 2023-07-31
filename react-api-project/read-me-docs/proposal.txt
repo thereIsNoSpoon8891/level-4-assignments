@@ -1,0 +1,64 @@
+## Proposal
+
+You must submit a proposal and have it passed by an instructor.
+ This proposal is meant to help focus and scale your idea into a realistic MVP, 
+ or minimum viable product, within a reasonable time frame.
+
+Your proposal must contain the following:
+
+1. Paragraph describing your app idea. What are you building? Who is it for?
+
+2.  An easily describable [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product).
+    Remember you have a limited amount of time to develop this project. 
+    What is the minimum you can get done on this project to meet the requirements and
+    get a product in someone's hand?
+
+3. [User Stories](https://www.mountaingoatsoftware.com/agile/user-stories).
+ What is a user going to do when they go to your site from the time they hit the landing page? 
+ What features do they need and which are optional?
+
+4. [Wireframe](https://uxmastery.com/wireframing-for-beginners/). 
+What is each page going to look like? What will be the layout, color scheme, etc? 
+Check out [wireframe.cc](https://wireframe.cc/) for a simple and free wireframing tool.
+
+5. [Mind Map](https://www.mindmup.com/). 
+What is the folder structure of your frontend app going to look like?
+Make a diagram representing its component hierarchy.
+
+Once you have these items, you need to post the proposal in the Level 4 channel 
+and an instructor will give you the go ahead!
+
+Use the proper pattern for user stories
+
+1. This  App will display information on movies based on genre, (total number of genres TBD).
+    Intended for general movie information. How many times have you argued with someone about the 
+    release date, genre, or actors pertaining to a specific movie? 
+    This App is intended to squash those debates! And in general be a cool way to browse movies.
+
+2.  basic display will be Movie poster or cover, name of movie and summary at minimum.
+    May include additional details based on time constraints, additional detail may be,
+    realease date, actors, etc.
+
+3. What brings a user to the App?
+    Template: As a < type of user >, I want < some goal > so that < some reason >.
+    
+    As a movie goer/patron, I want to be able to easily find information on Movies so that
+    I can answer those nagging questions about details that I can't remember.
+
+    As movie goer/patron, I want to be able to find movies I didn't even know existed so that
+    I can find fresh/new entertainment. (if I havn't seen it, it's new to me!)
+
+4. App will have a easily accessible theme button, initial theme will be rich in color, 
+    colors will be based on teh movie theater experience. (will be researched).
+    second theme will ge an easy to read, not too colorful scheme for those with poor eyesight,
+    or sensitive eyes.
+
+5. Diagram:
+
+
+
+            > header/persists page refresh      > genres(links)
+root > App  > Main > > > > > > > > > > > > > > > Movie components > > movie details
+            >footer/persists page refresh       > Attribution, Theme change Button
+
+
