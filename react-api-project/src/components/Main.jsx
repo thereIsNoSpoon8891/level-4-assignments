@@ -16,11 +16,11 @@ function Main () {
 
                 <div className={`main-container-${theme}`}>
 
-                    <h1>
+
                         <span className={`main-title-${theme}`}>
                             Welcome to the mini Movie Data-Base!
                         </span>
-                    </h1>
+
 
                     <h3 className={`main-subtitle-${theme}`}>
                         This site is is desginged to display basic movie information in three categories. 
