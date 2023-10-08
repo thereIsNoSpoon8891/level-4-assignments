@@ -49,9 +49,3 @@
 				});
 
 })(jQuery);
-
- const btn = document.getElementById("contact")
-
- btn.addEventListener("click", () => alert("clicked!"))
-
- // build form for users to send a message to email

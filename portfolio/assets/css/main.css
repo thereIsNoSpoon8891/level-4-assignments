@@ -71,6 +71,58 @@ input, select, textarea {
 	appearance: none;
 }
 
+.contact{
+	background: #3B4346 url("images/bg01.jpg");
+	border-radius: 10px;
+	border: solid whitesmoke 2px;
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.contact input {
+	width: 50%;
+	border: none;
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+.contact input::placeholder{
+	text-align: center;
+}
+
+.contact p {
+	font-size: 13px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.contact button{
+	width: 50%;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	height: 30px;
+	margin-bottom: 5px;
+	background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
+	background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
+	background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
+	background-image: linear-gradient(top, #ed391b, #ce1a00);
+	background-color: #ed391b;
+	color: whitesmoke;
+}
+
+.contact button:hover{
+	border: solid whitesmoke 2px;
+}
 /* Basic */
 
 	html {
@@ -115,6 +167,7 @@ input, select, textarea {
 	.last-child {
 		margin-bottom: 0 !important;
 	}
+
 
 /* Container */
 
@@ -163,6 +216,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: space-around;
 	}
 
 		.row > * {
@@ -406,6 +460,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				justify-content: space-around;
 			}
 
 				.row > * {
@@ -1462,15 +1517,12 @@ input, select, textarea {
 		box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
 		margin: 0 0 1.5em 0;
 		outline: 0;
-		overflow: hidden;
-		height: 300px;
 	}
 
 		.bordered-feature-image img {
 			display: block;
 			width: 100%;
-			height: 100%;
-			object-fit: cover;
+
 		}
 
 	.button-large {
@@ -1478,8 +1530,8 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
 		background-image: linear-gradient(top, #ed391b, #ce1a00);
-		display: inline-block;
 		background-color: #ed391b;
+		display: inline-block;
 		color: #fff;
 		text-decoration: none;
 		font-size: 1.75em;
