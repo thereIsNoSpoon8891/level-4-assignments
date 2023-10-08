@@ -1,5 +1,5 @@
 ////////// Contact Form ///////////
-const btn = document.getElementById("contact")
+const btn = document.getElementById("contact");
 
 btn.addEventListener("click", () => {
 
@@ -17,20 +17,26 @@ btn.addEventListener("click", () => {
                            I am committed to securly storing and handling your email address,
                            ensuring it is not shared without your explicit permission.`  
    numInput.setAttribute("type", "number");              
+   numInput.setAttribute("placeholder", "800-555-1234");
+   numInput.setAttribute("autocomplete", "on");
    exitBtn.setAttribute("id", "cancel");
-   numInput.setAttribute("placeholder", "800-555-1234")
    emailInput.setAttribute("placeholder", "Your E-Mail");
-   emailInput.setAttribute("type", "email")
+   emailInput.setAttribute("type", "email");
+   emailInput.setAttribute("autocomplete", "on");
+   emailInput.setAttribute("required", "true");
    orgInput.setAttribute("placeholder", "Organization");
+   orgInput.setAttribute("required", "true");
    nameInput.setAttribute("placeholder", "Your Name");
+   nameInput.setAttribute("autocomplete", "on");
+   nameInput.setAttribute("required", "true");
    form.setAttribute("name", "contactForm");
    form.setAttribute("class", "contact");
    sendBtn.setAttribute("id", "send");
    sendBtn.textContent = "Send";
-   exitBtn.textContent = "Cancel"
+   exitBtn.textContent = "Cancel";
 
-   sendBtn.addEventListener("click", (e) => {
-
+   sendBtn.addEventListener("submit", (e) => {
+      e.preventDefault();
       //HTTP REQ
       // fetch or axios
       exitBtn.remove();
@@ -39,9 +45,9 @@ btn.addEventListener("click", () => {
       sendBtn.remove();
       exitBtn.remove();
       nameInput.remove();
-      form.textContent = "Thank You! I will be in touch with you shortly!"
-      exitBtn.textContent = "Close Window"
-      form.appendChild(exitBtn)
+      form.textContent = "Thank You! I will be in touch with you shortly!";
+      exitBtn.textContent = "Close Window";
+      form.appendChild(exitBtn);
    })
 
    exitBtn.addEventListener("click", e => form.remove())
@@ -51,8 +57,8 @@ btn.addEventListener("click", () => {
    form.appendChild(emailInput);
    form.appendChild(numInput);
    form.appendChild(sendBtn);
-   form.appendChild(exitBtn)
-   form.appendChild(privBlrb)
+   form.appendChild(exitBtn);
+   form.appendChild(privBlrb);
 
 })
 
