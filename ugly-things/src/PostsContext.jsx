@@ -48,7 +48,7 @@ function makeUglyThing (e){// builds oject to be posted
 }
 
 
-console.log(editUglyThing)
+// console.log(editUglyThing)
 
 function deleteData (e) {// deletes item from the database
     e.preventDefault();
@@ -70,7 +70,7 @@ function editThing (e) {
         })
     )
 }
-console.log(uglyThings)
+// console.log(uglyThings)
 function putData(e){//capture inputs, submit put request
     e.preventDefault();
         const {id} = e.target;

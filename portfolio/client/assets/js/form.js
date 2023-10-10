@@ -37,8 +37,7 @@ btn.addEventListener("click", () => {
 
    sendBtn.addEventListener("submit", (e) => {
       e.preventDefault();
-      //HTTP REQ
-      // fetch or axios
+      
       exitBtn.remove();
       emailInput.remove();
       orgInput.remove();
