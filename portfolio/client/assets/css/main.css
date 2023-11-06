@@ -96,6 +96,9 @@ input, select, textarea {
 	margin-bottom: 5px;
 }
 
+.message{
+	height: 50px;
+}
 .contact input::placeholder{
 	text-align: center;
 }
