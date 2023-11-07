@@ -13,7 +13,7 @@ mailRouter.route("/mail")
     })
 
     const mail = {
-        from: 'Contact form <yourportfolio.com>',
+        from: 'myPorfolioPage@shanerowland.com' ,
         to: process.env.MY_EMAIL,
         subject: "from your portfolio page",
         text: `
