@@ -70,7 +70,24 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+.download_resume_btn{
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-decoration: underline;
+}
+.download_resume_btn img{
+	width: 5vw;
+	margin-bottom: 5px;
+}
+.btn-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .contact{
 	background: #3B4346 url("images/bg01.jpg");
 	border-radius: 10px;
