@@ -1,13 +1,13 @@
-import { MovieContext } from "../MovieContext"
-import { useContext } from "react"
-import Movies from "./Movies"
-import Header from "./Header"
-import Footer from "./Footer"
+import { MovieContext } from "../MovieContext";
+import { useContext } from "react";
+import Movies from "./Movies";
+import Header from "./Header";
+import Footer from "./Footer";
 
 
 function NowPlaying () {
 
-    const {nowPlaying, theme} = useContext(MovieContext)
+    const {nowPlaying, theme} = useContext(MovieContext);
 
     const movieElements = nowPlaying.map(movie => (
         <Movies 

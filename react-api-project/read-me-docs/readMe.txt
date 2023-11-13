@@ -1,6 +1,6 @@
 React-API-Project!
 
-API-Key: 23ef9f8d195fc310dc1205cce1f6bfb8
+API-Key: "see .env file"
 
 API-read-access-key: 
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyM2VmOWY4ZDE5NWZjMzEwZGMxMjA1Y2NlMWY2YmZiOCIsInN1YiI6IjY0YmFjMjgxMDZmOTg0MDBjNGYxZmZkOSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.gWso1VN8BaLTGb_OFSn1KZnVWVZbKSCLlxgzEzH5qg8

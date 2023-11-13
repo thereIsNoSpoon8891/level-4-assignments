@@ -49,7 +49,7 @@ Use the proper pattern for user stories
     I can find fresh/new entertainment. (if I havn't seen it, it's new to me!)
 
 4. App will have a easily accessible theme button, initial theme will be rich in color, 
-    colors will be based on teh movie theater experience. (will be researched).
+    colors will be based on the movie theater experience. (will be researched).
     second theme will ge an easy to read, not too colorful scheme for those with poor eyesight,
     or sensitive eyes.
 

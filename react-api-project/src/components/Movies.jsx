@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom"
-import { useContext } from "react"
-import { MovieContext } from "../MovieContext"
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { MovieContext } from "../MovieContext";
 
 
 function Movies (props) {
  
-    const {title, image, release, rating, votes, id } = props
+    const {title, image, release, rating, votes, id } = props;
     
-    const {theme} = useContext(MovieContext)
+    const {theme} = useContext(MovieContext);
 
     return(
         <div className="movie">

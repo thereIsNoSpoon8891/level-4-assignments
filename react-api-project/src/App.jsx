@@ -1,11 +1,11 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { MovieContextProvider } from './MovieContext'
-import Main from './components/Main'
-import MovieDetails from './components/MovieDetails'
-import NowPlaying from './components/NowPlaying'
-import TopRated from './components/TopRated'
-import Upcoming from './components/Upcoming'
-import './app.css'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { MovieContextProvider } from './MovieContext';
+import Main from './components/Main';
+import MovieDetails from './components/MovieDetails';
+import NowPlaying from './components/NowPlaying';
+import TopRated from './components/TopRated';
+import Upcoming from './components/Upcoming';
+import './app.css';
 
 
 

@@ -1,9 +1,9 @@
-import { useContext } from "react"
-import { MovieContext } from "../MovieContext"
+import { useContext } from "react";
+import { MovieContext } from "../MovieContext";
 
 function ThemeBtn () {
 
-    const {theme, toggleTheme} = useContext(MovieContext)
+    const {theme, toggleTheme} = useContext(MovieContext);
 
     return(
         <>

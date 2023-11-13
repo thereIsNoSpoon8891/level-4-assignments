@@ -1,9 +1,9 @@
-import { useParams } from "react-router-dom"
-import { useContext, useEffect, useState } from "react"
-import { MovieContext } from "../MovieContext"
-import axios from "axios"
-import Header from "./Header"
-import Footer from "./Footer"
+import { useParams } from "react-router-dom";
+import { useContext, useEffect, useState } from "react";
+import { MovieContext } from "../MovieContext";
+import axios from "axios";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function MovieDetails () {
 

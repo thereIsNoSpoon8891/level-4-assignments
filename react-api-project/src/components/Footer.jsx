@@ -1,5 +1,5 @@
-import ThemeBtn from "./ThemeBtn"
-import apiLogo from "../images/tmdb.png"
+import ThemeBtn from "./ThemeBtn";
+import apiLogo from "../images/tmdb.png";
 
 function Footer () {
 

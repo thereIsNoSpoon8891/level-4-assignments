@@ -1,12 +1,12 @@
-import { useContext } from "react"
-import { MovieContext } from "../MovieContext"
-import Header from "./Header"
-import Footer from "./Footer"
+import { useContext } from "react";
+import { MovieContext } from "../MovieContext";
+import Header from "./Header";
+import Footer from "./Footer";
 
 
 function Main () {
 
-    const {theme} = useContext(MovieContext)
+    const {theme} = useContext(MovieContext);
 
 
     return(

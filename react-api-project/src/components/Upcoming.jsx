@@ -1,13 +1,13 @@
-import { MovieContext } from "../MovieContext"
-import { useContext } from "react"
-import Movies from "./Movies"
-import Header from "./Header"
-import Footer from "./Footer"
+import { MovieContext } from "../MovieContext";
+import { useContext } from "react";
+import Movies from "./Movies";
+import Header from "./Header";
+import Footer from "./Footer";
 
 
 function Upcoming () {
 
-    const {upcoming, theme} = useContext(MovieContext)
+    const {upcoming, theme} = useContext(MovieContext);
 
     const movieElements = upcoming.map(movie => (
         <Movies 

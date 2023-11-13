@@ -1,14 +1,14 @@
-import { MovieContext } from "../MovieContext"
-import { useContext } from "react"
-import Movies from "./Movies"
-import Header from "./Header"
-import Footer from "./Footer"
+import { MovieContext } from "../MovieContext";
+import { useContext } from "react";
+import Movies from "./Movies";
+import Header from "./Header";
+import Footer from "./Footer";
 
 
 
 function TopRated () {
 
-    const {topRated, theme} = useContext(MovieContext)
+    const {topRated, theme} = useContext(MovieContext);
 
     const movieElements = topRated.map(movie => (
         <Movies 
